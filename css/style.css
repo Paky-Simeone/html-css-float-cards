@@ -26,12 +26,14 @@ main > p{
     text-align: center;
 }
 
+    /* Cards */
+
 .cards{
     width: calc((100% - 40px )/ 3);
     min-height: 50px;
     height: 100px;
     margin-bottom: 20px;
-    background-color: darkblue;
+    background-color: #072049;
     box-shadow: 5px 5px 5px 5px #888888;
     content: "";
     clear: both;
@@ -45,9 +47,24 @@ main > p{
     float: left;
 }
 
-.cards > h2{
+.cards > h2 {
 color: white;
 font-family: 'Fredoka', sans-serif;
 margin-left: 110px;
 margin-top: 10px;
+}
+
+.cards > p{
+    color: white;
+font-family: 'Fredoka', sans-serif;
+font-size: smaller;
+margin-left: 110px;
+margin-top: 10px;
+}
+
+.cards > a{
+    display: block;
+    color: rgb(62, 146, 146);
+    margin-left: 110px;
+    margin-top: 10px;
 }
