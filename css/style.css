@@ -10,16 +10,16 @@ header > h1{
     font-family: 'Fredoka', sans-serif;
     font-size: xx-large;
     color: rgb(218, 50, 78);
-    text-align: center;
     margin: 2rem;
+    text-align: center;
 }
 
 main{
-    width: 1200px;
-    margin: auto;
     display: flex;
-    flex-wrap: wrap;
+    width: 1200px;
     gap: 20px;
+    margin: auto;
+    flex-wrap: wrap;
 }
 
 main > p{
@@ -28,19 +28,26 @@ main > p{
 
 .cards{
     width: calc((100% - 40px )/ 3);
-    height: 100px;
     min-height: 50px;
-    background-color: darkblue;
+    height: 100px;
     margin-bottom: 20px;
-    float: left;
+    background-color: darkblue;
+    box-shadow: 5px 5px 5px 5px #888888;
     content: "";
     clear: both;
     display: table;
-    box-shadow: 5px 5px 5px 5px #888888;
 }
 
 .cards > img{
     display: block;
     width: 100px;
     height: 100px;
+    float: left;
+}
+
+.cards > h2{
+color: white;
+font-family: 'Fredoka', sans-serif;
+margin-left: 110px;
+margin-top: 10px;
 }
