@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    /* Titolo */
+
+header > h1{
+    font-family: 'Fredoka', sans-serif;
+    font-size: xx-large;
+    color: rgb(218, 50, 78);
+    text-align: center;
+    margin: 2rem;
+}
+
+main{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+main > p{
+    text-align: center;
+}
+
+.cards{
+    width: calc((100% - 40px )/ 3);
+    height: 100px;
+    min-height: 50px;
+    background-color: darkblue;
+    margin-bottom: 20px;
+    float: left;
+    content: "";
+    clear: both;
+    display: table;
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+
+.cards > img{
+    display: block;
+    width: 100px;
+    height: 100px;
+}
